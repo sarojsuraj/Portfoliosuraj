@@ -1,0 +1,296 @@
+    @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap');
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Spartan', sans-serif;
+        text-decoration: none;
+    }
+    
+    .max-width {
+        max-width: 1300px;
+        padding: 0 80px;
+        margin: auto;
+    }
+    
+    .navbar {
+        width: 100%;
+        padding: 14px 0;
+        font-family: 'Spartan', sans-serif;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
+        z-index: 999;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: #00011f;
+        backdrop-filter: blur(30px);
+    }
+    
+    .navbar .max-width {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .navbar .logo a {
+        color: rgb(242, 238, 238);
+        font-size: 35px;
+        font-weight: 600;
+    }
+    
+    .navbar .menu li {
+        list-style: none;
+        display: inline-block;
+    }
+    
+    .navbar .menu li a {
+        color: rgb(241, 236, 236);
+        transition: 0.3 ease;
+        font-size: 18px;
+        font-weight: 500;
+        margin-left: 25px;
+        transition: color 0.3s ease;
+    }
+    
+    .navbar .menu li a:hover {
+        color: crimson;
+    }
+    
+    #home {
+        background-image: url("back\ image");
+        height: 100vh;
+        width: 100%;
+        background-size: cover;
+        background-position: top 25% right 0;
+        padding: 0 80px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    
+    .home .max-width {
+        margin: auto 0 auto 40px;
+    }
+    
+    .home .home-content .t1 {
+        font-size: 20px;
+        color: rgb(183, 188, 192);
+    }
+    
+    .home .home-content .t1 span {
+        color: orange;
+        font-weight: 500;
+        font-size: 27px;
+    }
+    
+    .home .home-content .t2 {
+        font-size: 75px;
+        font-weight: 600;
+        margin-left: -3px;
+        color: aliceblue;
+    }
+    
+    #home button {
+        background-color: orange;
+        color: rgb(230, 230, 228);
+        border-radius: 10px;
+        font-weight: 600;
+        font-size: 12px;
+        padding: 1em;
+    }
+    
+    #me .content {
+        display: flex;
+        justify-content: center;
+        height: 100vh;
+        /* background-color:rgb(3, 3, 48) ; */
+        background: linear-gradient(#c6cdd6, rgb(195, 110, 25));
+    }
+    
+    .me .content .card {
+        background-image: url("surajsaroj1.jpeg");
+        justify-content: center;
+        flex-direction: column;
+        height: 350px;
+        width: 300px;
+        color: rgb(15, 2, 3);
+        background-size: cover;
+        border-radius: 20px;
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+        margin: auto;
+        box-shadow: 10px 10px 12px 0px black;
+        margin-right: 60px;
+        transition: all 0.2s;
+    }
+    
+    .me .content .card:hover {
+        color: rgb(17, 12, 6);
+        transform: scale(1.1);
+    }
+    
+    .me .content .t2 {
+        font-size: 45px;
+        font-weight: 600;
+        padding-right: 30px;
+        color: orange;
+        padding-left: 40px;
+        padding-top: 20px;
+    }
+    
+    .me .content .t1 {
+        font-size: 20px;
+        color: aliceblue;
+        margin-top: 20px;
+        line-height: 34px;
+    }
+    
+    .quali {
+        background: linear-gradient(rgb(3, 3, 48), #0d1116);
+        height: 100vh;
+    }
+    
+    .quali .t1 {
+        font-size: 60px;
+        font-weight: 600;
+        color: orange;
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    
+    .fic {
+        flex-direction: row;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .quali .card {
+        background: url("back\ image");
+        justify-content: center;
+        flex-direction: column;
+        height: 300px;
+        width: 300px;
+        color: rgb(230, 22, 22);
+        background-size: cover;
+        border-radius: 20px;
+        text-align: center;
+        font-family: sans-serif;
+        margin: auto;
+        box-shadow: 10px 10px 12px 0px black;
+        margin-right: 60px;
+        transition: all 0.2s;
+        padding-top: 60px;
+        color: white(233, 220, 220);
+        line-height: 34px;
+    }
+    
+    .skills {
+        background-image: url("images/wallpaper.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+        display: flex;
+        justify-content: space-evenly;
+        padding-left: 2em;
+    }
+    
+    .skills .t1 {
+        font-size: 50px;
+        font-weight: 600;
+        color: orange;
+        text-align: center;
+        padding-top: 20px;
+    }
+    
+    #skills button {
+        background-color: rgb(0, 183, 255);
+        color: rgb(230, 230, 228);
+        border-radius: 10px;
+        font-weight: 600;
+        font-size: 12px;
+        padding: 15px;
+        padding-right: 20px;
+        margin-top: 50px;
+        margin-right: 100px;
+        box-sizing: 20px;
+        width: 200px;
+    }
+    
+    .contact_area {
+        background-color: #00011f;
+        min-height: 100vh;
+        padding: 1em;
+        color: white;
+    }
+    
+    .contact_area h1 {
+        font-family: 'Spartan', sans-serif;
+        position: relative;
+        padding: 10px;
+    }
+    
+    .contact_area h1::after {
+        content: '';
+        height: 2px;
+        width: 100px;
+        background: orange;
+        position: absolute;
+        bottom: 0;
+        display: block;
+    }
+    
+    .contact_area h2,
+    .contact_area h4 {
+        text-align: center;
+        padding: 1em;
+        color: orange;
+    }
+    
+    .contact_area h4 {
+        text-align: center;
+        padding: 0em;
+        color: white;
+    }
+    
+    .contact_card_container {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 1em;
+    }
+    
+    .contact_card {
+        height: 200px;
+        width: 200px;
+        background: #06061c;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.2s ease-in-out;
+        cursor: pointer;
+    }
+    
+    .contact_card_img {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .contact_card_img span {
+        color: orange;
+        font-size: 2em;
+        height: 90%;
+    }
+    
+    .contact_card_text {
+        padding: 1em;
+    }
+    
+    .contact_card:hover {
+        transform: scale(1.05);
+    }
